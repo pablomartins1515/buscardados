@@ -14,30 +14,30 @@ export function Buttonplaceh() {
 
     return (
 
-        <div className='m-12 flex flex-auto '>
+        <div className='m-12 flex flex-auto justify-items-center justify-center '>
 
             <form onSubmit={handleSubmit}>
                 <div>
-                <textarea
-                    className="min-w-[420px]  max-h-[64px] shadow px-3 py-2 text-lg placeholder-zinc-400 text-gray-800 bg-white rounded-md border border-gray-400 focus:ring-blue-900 focus:ring-1 focus:outline-none resize-none scrollbar scrollbar-thumb-gray-700 scroolbar-track-transparent scrollbar-thin"
-                    placeholder="Digite a Placa ou Chassi do seu veículo..."
-                    onChange={event => setComment(event.target.value)}
-                />
+                    <textarea
+                        className="min-w-[240px]  max-w-[380px] max-h-[64px] shadow px-3 py-2 text-lg placeholder-zinc-400 text-gray-800 bg-white rounded-md border border-gray-400 focus:ring-blue-900 focus:ring-1 focus:outline-none resize-none scrollbar scrollbar-thumb-gray-700 scroolbar-track-transparent scrollbar-thin"
+                        placeholder="Digite a Placa do veículo..."
+                        onChange={event => setComment(event.target.value)}
+                    />
                 </div>
 
                 <div>
-                
-                    <button className="py-5">
+
+                    <button className="py-5 flex ">
                         <a
                             href="https://contate.me/BuscarDados"
-                            className="min-w-[420px] shadow flex justify-center py-3 border border-transparent text-lg font-semibold rounded-md text-white bg-green-800 hover:bg-blue-900"
+                            className="min-w-[240px]  max-w-[380px] shadow flex justify-center py-3 border border-transparent text-lg font-semibold rounded-md text-white bg-green-800 hover:bg-blue-900"
                         >
                             Consultar Placa!
                         </a>
                     </button>
                 </div>
-                
-                   
+
+
             </form>
 
         </div >
