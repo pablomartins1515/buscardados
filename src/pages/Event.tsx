@@ -4,6 +4,7 @@ import { Duvidas } from "../componentes/Duvidas"
 import Faq from "../componentes/Faq"
 import { BottomStyle } from "../componentes/BottomStyle"
 import { Body } from "../componentes/Body"
+import { Rodape } from "../componentes/Rodape"
 
 export function Event () {
     return (
@@ -12,7 +13,10 @@ export function Event () {
             <Body />
             <Duvidas />
             <Faq /> 
-            <BottomStyle />           
+            <BottomStyle />
+            <Rodape />
+             
+                    
         </div>    
     )        
 }

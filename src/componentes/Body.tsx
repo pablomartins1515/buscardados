@@ -13,7 +13,7 @@ export function Body() {
 
                 <h2 className="text-center justify-center text-xl">
                     Saber seu histórico nunca foi tão fácil! <br />
-                    Consulte pela placa e <br /> receba diversas informações. 😉
+                    Por <strong>apenas</strong> <strong className='text-blue-900'>R$ 8,99</strong> consulte pela placa e <br /> receba diversas informações. 😉
                 </h2>
 
                 <Buttonplaceh />
