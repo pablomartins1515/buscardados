@@ -2,8 +2,8 @@ export function Duvidas() {
     return (
         <div>
 
-            <div >
-                <h1 className="m-2 p-2 flex justify-center font-black text-4xl">
+            <div className="p-8">
+                <h1 className="m-2 p-2 flex justify-center font-black text-3xl">
                     Está com dúvidas?
                 </h1>
                 <h2 className="flex justify-center text-center">
