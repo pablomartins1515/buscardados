@@ -1,11 +1,11 @@
 import { Termos } from "../componentes/Termos"
 
-Termos
-
 export function Politica() {
-    return (
+   
+      return (
+
         <div>
             <Termos />
-        </div>
+        </div>        
     )
 }

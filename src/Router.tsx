@@ -4,10 +4,9 @@ import { Politica } from './pages/Politica';
 
 export function Router() {
     return (
-        <Routes>
-            <Route path="/" element={<Event />} />
-            <Route path="/politica" element={<Politica />} />
-            
-        </Routes>
+            <Routes>
+                <Route path="/" element={<Event />} />
+                <Route path="/politica/" element={<Politica />} />            
+            </Routes>
     )
 }
